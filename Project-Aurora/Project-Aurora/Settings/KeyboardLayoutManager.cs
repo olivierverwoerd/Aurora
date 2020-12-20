@@ -724,6 +724,8 @@ namespace Aurora.Settings
                 layoutConfigPath = Path.Combine(layoutsPath, "razer_blackwidow_x.json");
             else if (keyboard_preference == PreferredKeyboard.Razer_Blackwidow_TE)
                 layoutConfigPath = Path.Combine(layoutsPath, "razer_blackwidow_te.json");
+            else if (keyboard_preference == PreferredKeyboard.Razer_Blackwidow_Elite)
+                layoutConfigPath = Path.Combine(layoutsPath, "razer_blackwidow_elite.json");
             else if (keyboard_preference == PreferredKeyboard.Razer_Blade)
                 layoutConfigPath = Path.Combine(layoutsPath, "razer_blade.json");
             else if (keyboard_preference == PreferredKeyboard.Masterkeys_Pro_L)

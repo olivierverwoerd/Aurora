@@ -172,6 +172,9 @@ namespace Aurora.Devices.Razer
             if (Global.Configuration.keyboard_brand == PreferredKeyboard.Razer_Blade)
                 layout = RazerLayoutMap.Blade;
 
+            if (Global.Configuration.keyboard_brand == PreferredKeyboard.Razer_Blackwidow_Elite)
+                layout = RazerLayoutMap.Razer_Blackwidow_Elite;
+
             if (layout.ContainsKey(key))
                 return layout[key];
 
